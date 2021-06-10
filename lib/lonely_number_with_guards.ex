@@ -22,6 +22,6 @@ defmodule LonelyNumberWithGuards do
   end
 
   def value(_a, _b, _c) do
-    {:error, "Non numberic value(s)"}
+    {:error, "Non numeric value(s)"}
   end
 end
